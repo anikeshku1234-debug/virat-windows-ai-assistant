@@ -7,7 +7,6 @@ import winsound
 
 class TTSEngine:
     def __init__(self, voice: str = "hi-IN-MadhurNeural"):
-        # hi-IN-MadhurNeural Hindi aur English dono ko natural Indian accent me bolta hai
         self.voice = voice
 
     async def _generate_audio_file(self, text: str, output_path: str):
